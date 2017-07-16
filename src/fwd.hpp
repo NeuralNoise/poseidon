@@ -76,7 +76,7 @@ class ModuleDepository;
 class MongoDbDaemon;
 class MySqlDaemon;
 class ProfileDepository;
-class SystemHttpServer;
+class SystemServer;
 class TimerDaemon;
 
 }

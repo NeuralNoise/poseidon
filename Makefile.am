@@ -86,7 +86,7 @@ pkginclude_singletons_HEADERS = \
 	src/singletons/timer_daemon.hpp	\
 	src/singletons/main_config.hpp	\
 	src/singletons/epoll_daemon.hpp	\
-	src/singletons/system_http_server.hpp	\
+	src/singletons/system_server.hpp	\
 	src/singletons/module_depository.hpp	\
 	src/singletons/mysql_daemon.hpp	\
 	src/singletons/mongodb_daemon.hpp	\
@@ -236,7 +236,7 @@ lib_libposeidon_main_la_SOURCES = \
 	src/singletons/event_dispatcher.cpp	\
 	src/singletons/filesystem_daemon.cpp	\
 	src/singletons/profile_depository.cpp	\
-	src/singletons/system_http_server.cpp	\
+	src/singletons/system_server.cpp	\
 	src/cbpp/reader.cpp	\
 	src/cbpp/writer.cpp	\
 	src/cbpp/message_base.cpp	\
